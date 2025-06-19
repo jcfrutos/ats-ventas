@@ -1,4 +1,4 @@
-package com.tributario.ats_ventas.service;
+package com.tributario.ats_ventas.dto;
 
 import java.math.BigDecimal;
 
@@ -26,7 +26,6 @@ public class DashboardDTO {
     public void setTotalPayments(BigDecimal totalPayments) {
         this.totalPayments = totalPayments;
     }
-}
 
     @Override
     public String toString() {
