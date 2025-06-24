@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import com.ats_ventas.service.ExcelService;
+import com.tributario.ats_ventas.service.ExcelService;
 
 @RestController
 @RequestMapping("/api/upload")
