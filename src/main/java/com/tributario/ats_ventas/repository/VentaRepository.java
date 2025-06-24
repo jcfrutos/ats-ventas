@@ -1,6 +1,6 @@
-package com.tributario.ats_ventas.model;
+package com.tributario.ats_ventas.repository;
 
-import com.ats_ventas.model.Venta;
+import com.tributario.ats_ventas.model.Venta;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

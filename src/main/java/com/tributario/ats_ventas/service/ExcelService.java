@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.ats_ventas.model.Venta;
-import com.ats_ventas.repository.VentaRepository;
+import com.tributario.ats_ventas.model.Venta;
+import com.tributario.ats_ventas.repository.VentaRepository;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -40,5 +40,10 @@ public class ExcelService {
             }
         }
         return ventas;
+    }
+
+    public void processExcelFile(MultipartFile file) {
+        // This method can be used to process the file further if needed
+        throw new UnsupportedOperationException("Method not implemented yet");
     }
 }
